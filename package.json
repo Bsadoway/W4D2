@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Bsadoway/W4D2#readme",
   "dependencies": {
+    "dateformat": "^3.0.2",
     "pg": "^7.4.0"
   }
 }
