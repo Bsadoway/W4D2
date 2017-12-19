@@ -18,6 +18,8 @@
   "homepage": "https://github.com/Bsadoway/W4D2#readme",
   "dependencies": {
     "dateformat": "^3.0.2",
+    "knex": "^0.14.2",
+    "mysql": "^2.15.0",
     "pg": "^7.4.0"
   }
 }
