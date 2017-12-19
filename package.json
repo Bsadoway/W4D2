@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Bsadoway/W4D2/issues"
   },
-  "homepage": "https://github.com/Bsadoway/W4D2#readme"
+  "homepage": "https://github.com/Bsadoway/W4D2#readme",
+  "dependencies": {
+    "pg": "^7.4.0"
+  }
 }
