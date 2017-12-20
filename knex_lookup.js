@@ -13,12 +13,13 @@ const knex = require('knex')({
 
 const arg = process.argv[2];
 
-knex.select().from("famous_people").where({ last_name: arg }).asCallback((error, results) => {
-  // handle error
+knex.select().from("famous_people").where({ last_name: arg }).then(( results) => {
   results.forEach((result) => {
     printRecord(result);
   });
   knex.destroy();
+}).catch((error) => {
+  console.log(error);
 });
 
 

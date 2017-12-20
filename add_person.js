@@ -23,4 +23,3 @@ knex.insert({
   .into("famous_people").asCallback((error, results) => {
     knex.destroy();
   });
-// handle error
